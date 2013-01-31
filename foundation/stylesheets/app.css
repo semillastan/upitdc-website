@@ -6,7 +6,7 @@ body {
 
 #itdcpony{
 	top: 40px;
-	left: 470px;
+	left: 480px;
 }
 
 .spacer40 {
@@ -54,7 +54,7 @@ li.divider {
 }
 
 .header .logo {
-	margin: 20px 10px 0 0;
+	margin: 20px 0 0 20px;
 }
 
 .header .slogan {
