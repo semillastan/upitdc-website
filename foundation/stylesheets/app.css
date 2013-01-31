@@ -1,8 +1,8 @@
 /* Artfully masterminded by ZURB  */
 
 #itdcpony{
-	top: 110px;
-	left: 700px;
+	top: 40px;
+	left: 470px;
 }
 
 
@@ -70,5 +70,13 @@ li.divider {
 }
 
 .content {
-	height: 1000px;
+	min-height: 200px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border: 1px solid #dedede;
+}
+
+.footer {
+	height: 100px;
+	background-color: #111111;
 }
