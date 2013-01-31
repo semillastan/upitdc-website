@@ -101,3 +101,26 @@ li.divider {
 	background-color: #111111;
 	z-index: 10;
 }
+
+.footer h5 {
+	color: #efefef;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+.footer h6 {
+	color: #cccccc;
+	margin-top: 0;
+}
+
+.footer .address {
+	margin: 0;
+	margin-top: 20px;
+	float: right;
+}
+
+.footer .address2 {
+	margin: 0;
+	margin-top: 0;
+	float: right;
+}
