@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+    <title>TEST</title>
+    <link href="ponystrap.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="djangopony" id="pony"></div>
+	<script src="jquery-1.7.2.min.js"></script>
+	<script src="jquery.spritely-0.6.1.js"></script>
+	<script src="foundation/javascripts/foundation.js"></script>
+	<script type="text/javascript">	
+		$(document).ready(function(){
+			$('#pony').sprite({fps: 12, no_of_frames: 2}).activeOnClick().active();
+			$('html').flyToTap();
+   		});
+	</script>
+</body>
+</html>

@@ -1,8 +1,13 @@
 .djangopony{
 	background:transparent url('pony.png') 0 0 no-repeat;
 	position:absolute;
-	width:117px;
-	height:98px;
-	z-index:99;
-	margin: 0;
+	width: 117px;
+	height: 98px;
+	z-index: 99;
 }
+
+#pony {
+	top: 100px;
+	left: 100px;
+}
+
