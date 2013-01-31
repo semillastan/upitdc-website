@@ -1,14 +1,17 @@
 /* Artfully masterminded by ZURB  */
 
+body {
+	background-color: #e6e6e6;
+}
+
 #itdcpony{
 	top: 40px;
 	left: 470px;
 }
 
-
 .spacer40 {
 	width: 100%;
-	height: 50px;
+	height: 45px;
 }
 
 .header-nav {
@@ -46,6 +49,8 @@ li.divider {
 
 .header {
 	height: 140px;
+	box-shadow: 0 2px 7px rgba(100, 100, 100, 0.3);
+	background-color: #ffffff;
 }
 
 .header .logo {
@@ -66,17 +71,33 @@ li.divider {
 
 .banner {
 	width: 980px;
-	height: 316px;
+	height: 314px;
+	overflow: hidden;
+	box-shadow: 0 2px 7px rgba(100, 100, 100, 0.3);
+	z-index: 10;
+}
+
+.orbit-wrapper .slider-nav span.left,
+.orbit-wrapper .slider-nav span.right {
+	display: none;
+}
+
+.orbit-wrapper:hover .slider-nav span.left,
+.orbit-wrapper:hover .slider-nav span.right {
+	display: block;
 }
 
 .content {
 	min-height: 200px;
-	margin-top: 15px;
-	margin-bottom: 15px;
-	border: 1px solid #dedede;
+	/* margin-top: 15px;
+	margin-bottom: 15px; */
+	background-color: #ffffff;
+	box-shadow: 0 2px 7px rgba(100, 100, 100, 0.3);
+	z-index: 0;
 }
 
 .footer {
 	height: 100px;
 	background-color: #111111;
+	z-index: 10;
 }
